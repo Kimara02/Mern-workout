@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     const fetchWorkouts = async () => {
       try {
-        const response = await fetch( 'http://localhost:4000/api/kimara',{
+        const response = await fetch( 'https://mern-workout-backend-qr10.onrender.com/api/kimara',{
           headers:{
             'Authorization':`Bearer ${user.token}`,
           },

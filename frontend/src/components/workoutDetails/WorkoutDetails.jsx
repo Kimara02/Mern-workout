@@ -17,7 +17,7 @@ const WorkoutDetails = ({ workout }) => {
       toast.error("Please login to delete the workout");
       return;
     }
-    const response = await fetch(`http://localhost:4000/api/kimara/${workout._id}`, {
+    const response = await fetch(`https://mern-workout-backend-qr10.onrender.com/api/kimara/${workout._id}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${user.token}`, // Send the token in the headers
