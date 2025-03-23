@@ -35,7 +35,7 @@ const WorkoutForm = () => {
 }
     const workout = { title, reps, load };
 
-    const response = await fetch("http://localhost:4000/api/kimara", {
+    const response = await fetch("https://mern-workout-backend-qr10.onrender.com/api/kimara", {
       method: "POST",
       headers: { "Content-Type": "application/json" ,
          'Authorization':`Bearer ${user.token}`
