@@ -5,7 +5,6 @@ import { BiDetail } from "react-icons/bi"; // Icon for description
 
 import { useWorkoutsContext } from "../../Hooks/UseWorkoutContext";
 import { useAuthContext } from "../../Hooks/UseAuthContext";
-// import {toast} from "react-toastify";
 import {toast} from "react-toastify";
 
 
